@@ -12,6 +12,6 @@ class Backer
     new_project = Project.new(project)
     new_project.backers << self
     new_project.backers
-    
+
   end
 end
