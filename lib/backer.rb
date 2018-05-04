@@ -1,3 +1,7 @@
 class Backer
   attr_accessor :project
-end 
+
+  def initalize
+    @project = []
+  end
+end
