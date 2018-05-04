@@ -11,6 +11,6 @@ class Backer
     @backed_projects << project
     new_project = Project.new(project)
     new_project.backers << self.name
-    binding.pry
+    
   end
 end
